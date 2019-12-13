@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -60,7 +60,111 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+
 }
 
+a{
+	color: #C0C3C6;
+	font-size:13px;
+	text-decoration:none;
+	widows: 40px;
+	padding:35px 50px 45px 50px;
+}
+
+nav{
+    float: left;
+    text-align: center;
+}
+
+.logo {
+	display:inline-block;
+	float:right;
+
+}
+h1{
+	font-size:50px;
+}
+
+header{
+	display:inline-block;
+	text-align:center;
+	vertical-align:top;
+	width:100%;
+	padding:50px 20px 50px 40px;
+
+}
+
+.heading{
+	display:inline-block;
+	text-align:center;
+	width:60%;
+	padding:20px 20px 30px 50px;
+}
+
+
+.button{
+	font-size:16px;
+	border:1px solid black;
+	padding:0 30px;
+}
+
+.header-image{
+	display:inline-block;
+	float: right;
+	width:30%;
+}
+
+p{
+	font-family: -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+}
+
+
+.column-1 {
+	float: left;
+	width: 50%;
+  }
+  
+  .row-1{
+	  margin-left:50px;
+  }
+  
+  .row-1:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+.middle-img{
+	display:block;
+	margin:20px 0 0 50px;
+}
+
+.colum-2{
+	float:left;
+	width:27%;
+	display:inline;
+}
+
+.row-2{
+	margin:20px 0 50px 50px;
+}
+
+.row-2:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+address{
+	margin:20px 0 50px 50px;
+}
+
+footer{
+	margin-bottom:80px;
+	text-align:center;
+}
 /* Your code starts here! */
